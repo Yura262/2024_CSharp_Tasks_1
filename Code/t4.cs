@@ -1,4 +1,4 @@
-﻿public interface ISwimmable
+public interface ISwimmable
 {
     public void Swim()
     {
@@ -29,8 +29,15 @@ public interface IAnimal
     void Voice() => Console.WriteLine("No voice!");
     public virtual void ShowInfo() => Console.WriteLine($"I am a {GetType().Name} and I live approximately {LifeDuration} years.");
 }
+public class Cat : IAnimal, IRunnable
+{
+    public int LifeDuration { get; } = 30;
+    public void Voice()
+    {
+        Console.WriteLine("Meow!");
+    }
 
-
+}
 public class Eagle : IAnimal, IFlyable
 {
     public int LifeDuration { get; } = 25;
