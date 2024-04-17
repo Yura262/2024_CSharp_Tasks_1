@@ -1,1 +1,1 @@
-Посилання на відео: https://www.youtube.com/watch?v=cSOlffwSSEY
+Посилання на відео: https://youtu.be/XVfPVI1nd8w
